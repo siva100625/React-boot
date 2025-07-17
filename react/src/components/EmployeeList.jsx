@@ -46,6 +46,7 @@ const EmployeeList = () => {
     }
   };
 
+  
   const handleDelete = async (id) => {
     const token = localStorage.getItem("token");
     try {
